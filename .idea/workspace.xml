@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252d2f08-bdb4-4557-8e97-94c429bb7d88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mall/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mall/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mall/src/main/java/com/winniewang/springbootmall/SpringbootMallApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mall/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mall/src/test/java/com/winniewang/springbootmall/SpringbootMallApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,15 +18,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/practice/springboot-mall",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/practice/springboot-mall&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -44,6 +39,9 @@
       <option name="presentableId" value="Default" />
       <updated>1691723255414</updated>
       <workItem from="1691723256663" duration="2515000" />
+      <workItem from="1692079124614" duration="52000" />
+      <workItem from="1692079700434" duration="19000" />
+      <workItem from="1692079736701" duration="16000" />
     </task>
     <servers />
   </component>
