@@ -1,5 +1,6 @@
 package com.winniewang.springbootmall.service;
 
+import com.winniewang.springbootmall.constant.ProductCategory;
 import com.winniewang.springbootmall.dto.ProductRequest;
 import com.winniewang.springbootmall.model.Product;
 
@@ -7,7 +8,7 @@ import java.util.List;
 
 public interface ProductService {
 
-    List<Product> getProducts();
+    List<Product> getProducts(ProductCategory category, String search);
 
     Product getProductById(Integer productId);
 
