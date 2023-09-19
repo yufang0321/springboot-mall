@@ -1,6 +1,7 @@
 package com.winniewang.springbootmall.controller;
 
 import com.winniewang.springbootmall.constant.ProductCategory;
+import com.winniewang.springbootmall.dao.ProductQueryParams;
 import com.winniewang.springbootmall.dto.ProductRequest;
 import com.winniewang.springbootmall.model.Product;
 import com.winniewang.springbootmall.service.ProductService;
@@ -23,7 +24,11 @@ public class ProductController {
             @RequestParam(required = false) ProductCategory category,
             @RequestParam(required = false) String search
     ){
-        List<Product> productList = productService.getProducts(category, search);
+        ProductQueryParams productQueryParams = new ProductQueryParams();
+        productQueryParams.setCategory(category);
+        productQueryParams.setSearch(search);
+
+        List<Product> productList = productService.getProducts(productQueryParams);
 
         return ResponseEntity.status(HttpStatus.OK).body(productList);
     }
