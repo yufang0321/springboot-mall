@@ -1,4 +1,4 @@
-package com.winniewang.springbootmall.dao;
+package com.winniewang.springbootmall.dto;
 
 import com.winniewang.springbootmall.constant.ProductCategory;
 

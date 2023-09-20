@@ -1,6 +1,6 @@
 package com.winniewang.springbootmall.dao;
 
-import com.winniewang.springbootmall.constant.ProductCategory;
+import com.winniewang.springbootmall.dto.ProductQueryParams;
 import com.winniewang.springbootmall.dto.ProductRequest;
 import com.winniewang.springbootmall.model.Product;
 
