@@ -4,6 +4,9 @@ import com.winniewang.springbootmall.dao.UserDao;
 import com.winniewang.springbootmall.dto.UserRegisterRequest;
 import com.winniewang.springbootmall.model.User;
 import com.winniewang.springbootmall.rowmapper.UserRowMapper;
+import com.winniewang.springbootmall.service.impl.UserServiceImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -18,6 +21,9 @@ import java.util.Map;
 
 @Component
 public class UserDaoImpl implements UserDao {
+
+    private final static Logger log = LoggerFactory.getLogger(UserDaoImpl.class);
+
 
     @Autowired
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;

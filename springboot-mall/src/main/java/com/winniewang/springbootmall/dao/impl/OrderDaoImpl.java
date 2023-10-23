@@ -42,7 +42,7 @@ public class OrderDaoImpl implements OrderDao {
     }
 
     @Override
-    public List<OrderItem> getOrderItemByOrderId(Integer orderId) {
+    public List<OrderItem> getOrderItemsByOrderId(Integer orderId) {
         String sql = "SELECT oi.order_item_id, oi.order_id, oi.product_id, oi.quantity, oi.amount, p.product_name, p.image_url " +
                 "FROM order_item as oi " +
                 "LEFT JOIN product as p ON oi.product_id = p.product_id " +

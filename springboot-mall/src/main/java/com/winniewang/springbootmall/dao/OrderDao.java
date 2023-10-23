@@ -9,7 +9,7 @@ public interface OrderDao {
 
     Integer createOrder(Integer userId, Integer totalAmount);
 
-    List<OrderItem> getOrderItemByOrderId(Integer orderId);
+    List<OrderItem> getOrderItemsByOrderId(Integer orderId);
 
     void createOrderItems(Integer orderId, List<OrderItem> orderItemList);
 
